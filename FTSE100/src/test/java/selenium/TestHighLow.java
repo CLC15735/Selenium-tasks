@@ -20,7 +20,7 @@ public class TestHighLow {
 	
 	private WebDriver driver;
 	
-	@BeforeClass
+	@Before
 	public void setup() {
 		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\e13cr\\Documents\\workspace-spring-tool-suite-4-4.8.0.RELEASE\\selenium-day1\\src\\test\\resources\\driver\\chromedriver.exe");
 	        driver = new ChromeDriver();
@@ -39,7 +39,7 @@ public class TestHighLow {
 		driver.get("https://www.hl.co.uk/shares/stock-market-summary/ftse-100/risers%22");
         
         high = driver.findElements(By.xpath("/html/body/main/div/div/div[3]/div/div[4]/div[1]/div/table/tbody/*"));
-        System.out.println("--" + high + "--");
+       
         
 //        int count = 0;
 //        for (WebElement higher : high) {
