@@ -13,7 +13,7 @@ public class Register {
 	//Attributes
 	
 	@FindBy (xpath = "/html/body/div[2]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[13]/td[2]/input")
-		WebElement usernameField;
+	WebElement usernameField;
 	
 	@FindBy (xpath = "/html/body/div[2]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[14]/td[2]/input")
 	WebElement passwordField;
